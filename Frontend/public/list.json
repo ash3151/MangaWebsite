@@ -1,0 +1,55 @@
+[
+    {
+        "id":1,
+        "name":"Kaiju No.8",
+        "title":"Shonen Manga withs lots Action and Kaiju's",
+        "price":0,
+        "category":"Free",
+        "image":"https://i.pinimg.com/originals/87/8c/63/878c63034c1a8590f6479e584c66b302.jpg"
+    },
+
+    {
+        "id":2,
+        "name":"My Hero Academia",
+        "title":"Shonen",
+        "price":50,
+        "category":"Shounen",
+        "image":"https://i.pinimg.com/originals/81/29/51/8129514724a5e7a1623ee7b4715fd30f.jpg"
+    },
+
+    {
+        "id":3,
+        "name":"Jujutsu Kaisen",
+        "title":"Shonen Manga",
+        "price":0,
+        "category":"Free",
+        "image":"https://i.pinimg.com/originals/02/cb/ed/02cbed5750facf9cacbb2e602b28e774.png"
+    },
+
+    {
+        "id":4,
+        "name":"Tomodachi Game",
+        "title":" Game between Friends and Money",
+        "price":100,
+        "category":"Free",
+        "image":"https://i.pinimg.com/originals/bb/3a/1b/bb3a1bde5d2487a93472f069adddb97b.jpg"
+    },
+
+    {
+        "id":5,
+        "name":"Spy X Family",
+        "title":"Daily life  of a Spy an Assassin and a weird Kid with Telepathy ",
+        "price":0,
+        "category":"100",
+        "image":"https://i.pinimg.com/originals/aa/1c/39/aa1c394bbbf503b92005ed0aad9e2a81.jpg"
+    },
+
+    {
+        "id":6,
+        "name":"Tokyo Ghoul",
+        "title":"Living as a half-ghoul between humans and ghouls. ",
+        "price":100,
+        "category":"Seinen ,Action",
+        "image":"https://i.pinimg.com/originals/62/b9/4c/62b94c7d85309d5cbd311aba22221284.png"
+    }
+]
