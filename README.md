@@ -1,5 +1,5 @@
 To run this app on your device:
-1. **Clone** this git repository by copying the [link](https://github.com/ash3151/MangaWebsite.git), create a **new** directory and **run git clone** command or you can download the **zip file** and extract it.
+1. **Clone** this git repository by copying the link, create a **new** directory and **run git clone** command or you can download the **zip file** and extract it.
 2. Once the download is complete open the directory in your Code editor and type `npm install` in terminal.
 3. Go to **\Frontend** and do `npm run dev`.
 4. Go to **\Backend** and do `npm start`.
