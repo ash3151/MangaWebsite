@@ -12,7 +12,7 @@ function LatestChap() {
   useEffect(()=>{
     const getManga = async()=>{
       try {
-       const res = await  axios.get('http://localhost:4001/manga')
+       const res = await  axios.get('http://localhost:4002/manga')
     
        const data=res.data.filter((data)=> data.category === "Free")
        console.log(data)
@@ -66,8 +66,8 @@ function LatestChap() {
     <>
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
       <div>
-      <h1 className='font-semibold text-white text-xl pb-2'>Latest Chapters</h1>
-      <p className='text-white'>Weekly , Monthly of your favourite Manga</p>
+      <h1 className='font-semibold dark:text-white text-black text-xl pb-2'>Latest Chapters</h1>
+      <p className='dark:text-white text-black'>Weekly , Monthly of your favourite Manga</p>
       </div>
     
 

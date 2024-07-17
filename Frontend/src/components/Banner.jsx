@@ -6,8 +6,8 @@ function Banner() {
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4  flex flex-col md:flex-row my-0'>
         <div className=' order-2 md:order-1 w-full md:w-1/2 mt-12 md:mt-32'>
         <div className='space-y-12'>
-        <h1 className='text-4xl font-bold text-white'>Mangamafia no u~ebusaito <span className='text-pink-400'>e yōkoso</span></h1>
-        <p className='text-white text-xl'>
+        <h1 className='text-4xl font-bold dark:text-white text-black'>Welcome to MangaClub <span className='text-pink-400'>website</span></h1>
+        <p className='dark:text-white text-black text-xl'>
         だがことわる(Daga kotowaru) - Kishibe Rohan , だってばよ！(Dattebayo!) - Naruto Uzumaki , わくわく(waku-waku) - Anya Forger and many more phrase to be heard from the world of Anime and Manga..
         </p>
         <label className="input input-bordered flex items-center gap-2">

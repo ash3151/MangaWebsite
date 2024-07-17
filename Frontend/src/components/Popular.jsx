@@ -9,7 +9,7 @@ function Popular() {
   useEffect(()=>{
     const getManga = async()=>{
       try {
-       const res = await  axios.get('http://localhost:4001/manga')
+       const res = await  axios.get('http://localhost:4002/manga')
        console.log(res.data)
        setManga(res.data)
       } catch (error) {
@@ -23,9 +23,9 @@ function Popular() {
     <>
     <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
       <div className='mt-24 items-center justify-center  text-center'>
-        <h1 className='text-2xl text-white font-semibold md:text-4xl'>Douzo yoroshiku!We are pleased to meet you here <span className='text-pink-400'>(UwU)!</span></h1>
-        <p className='text-white mt-12'>
-        Discover popular Japanese manga series with over 110 chapters to read on MangaMafia! Sign up and read the 1st chapter of even more titles for FREE!
+        <h1 className='text-2xl text-black dark:text-white font-semibold md:text-4xl'>Douzo yoroshiku!We are pleased to meet you here <span className='text-pink-400'>(UwU)!</span></h1>
+        <p className='text-black dark:text-white mt-12'>
+        Discover popular Japanese manga series with over 110 chapters to read on MangaClub! Sign up and read the 1st chapter of even more titles for FREE!
         </p>
         <Link to='/'>
         <button className='mt-6 bg-pink-400 text-white px-4 py-2 rounded-md hover:bg-pink-600 duration-200'> Back </button>

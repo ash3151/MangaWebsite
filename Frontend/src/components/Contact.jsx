@@ -13,10 +13,10 @@ function Contact() {
   return (
     <>
     
-    <div className='text-white flex h-screen items-center justify-center '>
+    <div className='text-black flex h-screen items-center justify-center '>
     
     <div className= "w-[600px] ">
-  <div className=" modal-box text-white">
+  <div className=" modal-box text-black">
     <form onSubmit={handleSubmit(onSubmit)} method="dialog">
       {/* if there is a button in form, it will close the modal */}
       <Link 
@@ -25,7 +25,7 @@ function Contact() {
     <h3 className="font-bold text-lg">Contact Us</h3>
     {/* name */}
     <div className='mt-4 space-y-2'>
-        <span className='text-white'>Name</span>
+        <span className='text-black'>Name</span>
         <br/>
         <input type="text" placeholder='Enter your full name' className='w-80 px-3  py-1 border rounded-md outline-none'
         {...register("name", { required: true })}
@@ -35,7 +35,7 @@ function Contact() {
     </div>
     {/* name */}
     <div className='mt-4 space-y-2'>
-        <span className='text-white'>Email</span>
+        <span className='text-black'>Email</span>
         <br/>
         <input type="text" placeholder='Enter your email' className='w-80 px-3  py-1 border rounded-md outline-none'
         {...register("email", { required: true })}
